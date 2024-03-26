@@ -1,6 +1,9 @@
 import sys
-sys.path.append('../tools/HyperCOT')
-sys.path.append("../tools/hypergraph_cocluster/")
+import os
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                             "../tools/HyperCOT"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                             "../tools/hypergraph_cocluster"))
 import numpy as np
 import ot 
 from ot.backend import get_backend
