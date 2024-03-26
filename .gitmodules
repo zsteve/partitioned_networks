@@ -1,0 +1,6 @@
+[submodule "tools/hypergraph_cocluster"]
+	path = tools/hypergraph_cocluster
+	url = https://github.com/yuzhu2019/hypergraph_cocluster
+[submodule "tools/HyperCOT"]
+	path = tools/HyperCOT
+	url = https://github.com/samirchowdhury/HyperCOT
